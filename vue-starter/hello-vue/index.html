@@ -1,0 +1,26 @@
+<!-- 
+
+Learn Guide from https://vuejs.org/v2/guide/
+
+To see how Vue.js cool is, you can open Firefox Tool Console, then type
+
+  app.message = 'Cool'
+
+And watch the browser page changed with magic!
+-->
+
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<div id="app">
+  {{ message }}
+</div>
+
+<script>
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!'
+  }
+})
+</script>
