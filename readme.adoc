@@ -1,0 +1,31 @@
+A collection of demos and starter projects using front end web design 
+technologies.
+
+== Interesting Website Designs
+
+- https://alistapart.com/
+- https://themes.getbootstrap.com/
+- https://developer.mozilla.org/en-US/docs/Web/Demos_of_open_web_technologies
+- https://codepen.io/pens/
+- https://www.awwwards.com/
+- https://www.lapa.ninja/
+- https://dribbble.com/
+- https://www.behance.net/
+- https://muz.li/
+- https://www.pinterest.com
+- https://bestwebsite.gallery/
+
+== Interesting Data Applications
+
+- http://countries.petethompson.net/
+- https://catalog.data.gov/
+
+== Tools
+
+- https://www.adobe.com/products/photoshop.html
+- https://cloud.oracle.com/en_US/visual-builder/
+
+== Library API and References
+
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
+- https://jqueryui.com/
