@@ -1,0 +1,25 @@
+RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node. Using a modular script loader like RequireJS will improve the speed and quality of your code.
+
+https://requirejs.org/
+
+== What is it?
+
+Instead of this:
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/helper/util.js"></script>
+
+You can do this intead:
+
+    <script data-main="scripts/main" src="scripts/require.js"></script>
+
+But why? Well, like the stated above ... "Using a modular script loader like RequireJS will improve the speed and quality of your code."!
+
+Also, the doc says ...
+
+	RequireJS takes a different approach to script loading than traditional <script> tags. While it can also run fast and optimize well, the primary goal is to encourage modular code. As part of that, it encourages using module IDs instead of URLs for script tags.
+
+== Examples
+
+- https://github.com/volojs/create-template[Simple one page app]
+- https://github.com/requirejs/example-multipage[Multipage app]
