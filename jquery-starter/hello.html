@@ -11,11 +11,15 @@
  
     $( document ).ready(function() {
   
-	    $( "a" ).click(function( event ) {
-	        alert( "Thanks for visiting!" );
-	    });
-	    
-	});
+        $( "a" ).click(function( event ) {
+            alert( "Thanks for visiting!" );
+
+            // // This will disable the click
+            // alert("We have prevented the redirect after click.")
+            // event.preventDefault();
+        });
+
+    });
 
     </script>
 </body>
