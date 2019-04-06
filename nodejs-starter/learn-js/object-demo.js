@@ -1,7 +1,10 @@
 /*
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 
-The Object constructor creates an object wrapper for the given value. If the value is null or undefined, it will create and return an empty object, otherwise, it will return an object of a Type that corresponds to the given value. If the value is an object already, it will return the value.
+The Object constructor creates an object wrapper for the given value. If the value is null or
+undefined, it will create and return an empty object, otherwise, it will return an object of a
+Type that corresponds to the given value. If the value is an object already, it will return
+the value.
 
 When called in a non-constructor context, Object behaves identically to new Object().
  */
@@ -42,3 +45,19 @@ console.log(Object.length);
 console.log(new Object().length); // This is undefined! We can't get length from instance!
 console.log("abc".length);
 console.log([1, 2, 3, 4, 5].length);
+
+// Since all object inherits Object, hen changing Object.prototype will
+// affect all objects!
+// See object-prototype.js for more
+console.log("Object prototype");
+Object.prototype.silly = "Hello";
+function Foo() {}
+var f = new Foo();
+console.log(Object.silly)
+console.log(Foo.silly)
+console.log(f.silly)
+f.silly = "Hi";
+console.log(Object.silly)
+console.log(Foo.silly)
+console.log(f.silly)
+
