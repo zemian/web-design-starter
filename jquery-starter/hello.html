@@ -3,6 +3,12 @@
 <head>
     <meta charset="utf-8">
     <title>Demo</title>
+
+    <style>
+    a.test {
+        font-weight: bold;
+    }
+    </style>
 </head>
 <body>
     <a href="http://jquery.com/">jQuery</a>
@@ -12,12 +18,16 @@
     $( document ).ready(function() {
   
         $( "a" ).click(function( event ) {
-            alert( "Thanks for visiting!" );
+            //alert( "Thanks for visiting!" );
 
-            // // This will disable the click
-            // alert("We have prevented the redirect after click.")
-            // event.preventDefault();
+            // This will disable the click
+            alert("We have prevented the redirect after click.")
+            event.preventDefault();
+
+            $( "a" ).removeClass( "test" );
         });
+
+        $( "a" ).addClass( "test" );
 
     });
 
