@@ -4,7 +4,8 @@ As an asynchronous event driven JavaScript runtime, Node is designed to build sc
 applications. In the following "hello world" example, many connections can be handled concurrently.
 Upon each connection the callback is fired, but if there is no work to be done, Node will sleep.
 
-https://nodejs.org/en/docs/guides/getting-started-guide/
+- https://nodejs.org/en/docs/guides/getting-started-guide/
+- https://nodejs.org/api/
 
 == Build and Run
 
