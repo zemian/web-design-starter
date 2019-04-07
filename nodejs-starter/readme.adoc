@@ -13,3 +13,9 @@ Upon each connection the callback is fired, but if there is no work to be done, 
 brew install node
 node hello.js
 ----
+
+== What is JavaScript, really?
+
+JavaScript ("JS" for short) is a full-fledged dynamic programming language that, when applied to an HTML document,
+can provide dynamic interactivity on websites. It was invented by Brendan Eich, co-founder of the Mozilla project,
+the Mozilla Foundation, and the Mozilla Corporation.
