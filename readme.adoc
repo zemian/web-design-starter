@@ -25,7 +25,9 @@ technologies.
 - https://www.adobe.com/products/photoshop.html
 - https://cloud.oracle.com/en_US/visual-builder/
 
-== Library API and References
+== Library API, References and Tutorials
 
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
-- https://jqueryui.com/
+- https://www.w3schools.com/html/default.asp
+- https://jquery.org/
+- https://developer.mozilla.org
