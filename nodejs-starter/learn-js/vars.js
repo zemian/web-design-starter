@@ -26,3 +26,13 @@ printType(`hello ${a}`);
 printType(1 / 0);
 printType([1, 2, 3]); // array
 printType({'foo': 123, 'bar': 99}); // object / map
+
+// == Multiple vars can be define on same line!
+
+// four variables are created and assigned in a single go,
+// separated by commas
+var myObj = new Object(),
+    str = 'myString',
+    rand = Math.random(),
+    obj = new Object();
+console.log([myObj, str, rand, obj]);
