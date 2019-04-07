@@ -19,8 +19,10 @@ function printType(x) {
 }
 printType(99);
 printType(99.11);
+printType(true);
+printType(false);
 printType('foo');
 printType(`hello ${a}`);
 printType(1 / 0);
-printType([1, 2, 3]);
-printType({'foo': 123, 'bar': 99});
+printType([1, 2, 3]); // array
+printType({'foo': 123, 'bar': 99}); // object / map
