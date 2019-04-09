@@ -11,7 +11,7 @@ Upon each connection the callback is fired, but if there is no work to be done, 
 
 ----
 brew install node
-node hello.js
+node hello.html
 ----
 
 == What is JavaScript, really?
