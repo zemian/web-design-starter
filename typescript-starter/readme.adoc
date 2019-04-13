@@ -2,6 +2,11 @@ TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
 
 http://www.typescriptlang.org/
 
+== Setup and Build
+
+  npm install -g typescript
+  tsc greeter.ts
+
 == What is Declaration Files ?
 
 http://www.geekabyte.io/2017/10/understanding-declaration-files-in.html
