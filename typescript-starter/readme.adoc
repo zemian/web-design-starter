@@ -13,6 +13,11 @@ http://www.typescriptlang.org/
   cd learn
   tsc
 
+  # To test any examples, use node
+  node dist/hello.js
+
+https://www.typescriptlang.org/docs/handbook/basic-types.html
+
 == Setup Gulp Project
 
 ----
