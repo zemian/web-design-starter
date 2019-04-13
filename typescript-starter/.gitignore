@@ -1,3 +1,7 @@
+# The first typescript test output
+# We only want the greeter.ts
 greeter.js
 
-build/
+# Gulp project setup for learn dir
+dist/
+node_modules/
