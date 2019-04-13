@@ -8,6 +8,23 @@ http://www.typescriptlang.org/
   tsc greeter.ts
   open greeter.html
 
+== Learn TypeScript
+
+  cd learn
+  tsc
+
+== Setup Gulp Project
+
+----
+mkdir gulp-starter; cd gulp-starter
+mkdir src dist
+npm init
+# Main entry "dist/main.js"
+
+npm install -g gulp-cli
+npm install --save-dev typescript gulp@4.0.0 gulp-typescript
+----
+
 == What is Declaration Files ?
 
 http://www.geekabyte.io/2017/10/understanding-declaration-files-in.html
