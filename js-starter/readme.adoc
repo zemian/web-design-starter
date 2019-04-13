@@ -7,6 +7,16 @@ language, supporting object-oriented, imperative, and declarative
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
+== What is JavaScript, really?
+
+JavaScript ("JS" for short) is a full-fledged dynamic programming language that, when applied to an HTML document,
+can provide dynamic interactivity on websites. It was invented by Brendan Eich, co-founder of the Mozilla project,
+the Mozilla Foundation, and the Mozilla Corporation.
+
+See `learn-js`. It contains many examples mentioned from
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+
+
 == Run and Testing JavaScript
 
 A tradition way to run JS is to use a browser and use the "script" tag in html file.
