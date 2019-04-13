@@ -10,18 +10,25 @@ http://www.typescriptlang.org/
 
 == Learn TypeScript
 
+To compile the entire "src" directory
+
   cd learn
   tsc
 
-  # To test any examples, use node
+  # To test any examples, use node with the output
   node dist/hello.js
 
  
-  # Or you can compile and run single file
+Or you can compile and run single file
+
   cd learn/src
   tsc hello.ts; node hello.js
 
-https://www.typescriptlang.org/docs/handbook/basic-types.html
+  # Note that extension is optinoal!
+  tsc hello; node hello
+
+https://www.typescriptlang.org/docs/handbook
+
 
 == Setup Gulp Project
 
