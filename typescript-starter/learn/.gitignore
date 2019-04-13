@@ -1,1 +1,4 @@
 dist/
+
+# Ignore output js files when testing individual file
+src/**/*.js
