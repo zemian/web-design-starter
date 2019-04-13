@@ -1,3 +1,5 @@
+// https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+
 class Student {
     fullName: string;
     constructor(public firstName: string, public middleInitial: string, public lastName: string) {
