@@ -12,21 +12,6 @@ c = 88.1;
 //d = 88.14; // This will fail since we can't reassign const var!
 console.log([a, b, c, d]);
 
-
-// Built-in types
-function printType(x) {
-    console.log(x + ", type=" + typeof(x));
-}
-printType(99);
-printType(99.11);
-printType(true);
-printType(false);
-printType('foo');
-printType(`hello ${a}`);
-printType(1 / 0);
-printType([1, 2, 3]); // array
-printType({'foo': 123, 'bar': 99}); // object / map
-
 // == Multiple vars can be define on same line!
 
 // four variables are created and assigned in a single go,
