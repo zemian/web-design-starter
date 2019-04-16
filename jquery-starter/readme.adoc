@@ -12,4 +12,6 @@ you're new to JavaScript, we recommend checking out the
 https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics[JavaScript basics tutorial]
 on the Mozilla Developer Network (MDN).
 
-https://learn.jquery.com/
+- https://learn.jquery.com/
+- https://api.jquery.com/
+- https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
