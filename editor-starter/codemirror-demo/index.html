@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Editor Demo</title>
+</head>
+<body>
+	<link rel="stylesheet" href="lib/codemirror.css">
+	<script src="lib/codemirror.js"></script>
+	<script src="mode/javascript/javascript.js"></script>
+	<script>
+		var myCodeMirror = CodeMirror(document.body, {
+			value: "function myScript(){return 100;}\n",
+			mode:  "javascript",
+			lineNumbers: true
+		});
+	</script>
+</body>
+</html>

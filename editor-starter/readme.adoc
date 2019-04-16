@@ -1,0 +1,2 @@
+We will explore few popular web browser editors in this project. See
+each individual folder for demo.
