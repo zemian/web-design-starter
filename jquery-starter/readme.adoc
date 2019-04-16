@@ -15,3 +15,11 @@ on the Mozilla Developer Network (MDN).
 - https://learn.jquery.com/
 - https://api.jquery.com/
 - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+
+== Interactive JQuery Exploration
+
+1. Open one of demo (eg: hello.html) with Chrome or Firefox
+2. Open the developer tool (F12) and then go to Console Tab.
+3. Start typing:
+
+  $("p").text("hack hack hack");
