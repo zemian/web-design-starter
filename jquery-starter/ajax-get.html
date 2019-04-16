@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <title>jQuery Starter</title>
+    <script src="jquery.js"></script>
+</head>
+<body>
+<h1>JQuery Starter</h1>
+<pre>
+        $.get() is a shorthand for
+
+        $.ajax({
+          url: url,
+          data: data,
+          success: success,
+          dataType: dataType
+        });
+
+        https://api.jquery.com/jQuery.get/
+    </pre>
+
+<script>
+    // $(document).ready(function () {
+    //     $.ajax({
+    //         url: "https://restcountries.eu/rest/v2/alpha/usa",
+    //         dataType: "html"
+    //     }).done(function (data) {
+    //             $("pre").text(data);
+    //         }
+    //     );
+    // });
+
+    // $(document).ready(function() {
+    //     $.get("https://restcountries.eu/rest/v2/alpha/usa", function(data) {
+    //         $("pre").text(data);
+    //     }, 'text');
+    // });
+
+    // $(document).ready(function() {
+    //     $.get("https://restcountries.eu/rest/v2/alpha/usa", function(data) {
+    //         $("pre").text(JSON.stringify(data));
+    //     }, 'json');
+    // });
+
+    $(document).ready(function() {
+        $.getJSON("https://restcountries.eu/rest/v2/alpha/usa", function(data) {
+            $("pre").text(JSON.stringify(data));
+        });
+    });
+</script>
+</body>
+</html>
