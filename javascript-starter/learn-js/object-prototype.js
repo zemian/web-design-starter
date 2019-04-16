@@ -69,3 +69,13 @@ mike.greet();
 // Hi, I am Mike
 
 mime.greet();
+
+// == Using function like class
+function Player(name, score) {
+    this.name = name;
+    this.score = score;
+}
+let p1 = new Player('Zemian', 300);
+console.log("Player1 " + p1);
+console.log("Player1 " + p1.name);
+console.log("Player1 " + p1.score);
