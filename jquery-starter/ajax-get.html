@@ -7,7 +7,7 @@
 <body>
 <h1>JQuery Starter</h1>
 <pre>
-        $.get() is a shorthand for
+        $.get(url, data, success, dataType) is a shorthand for
 
         $.ajax({
           url: url,
@@ -23,11 +23,11 @@
     // $(document).ready(function () {
     //     $.ajax({
     //         url: "https://restcountries.eu/rest/v2/alpha/usa",
-    //         dataType: "html"
-    //     }).done(function (data) {
+    //         dataType: "text",
+    //         success: function (data) {
     //             $("pre").text(data);
     //         }
-    //     );
+    //     });
     // });
 
     // $(document).ready(function() {

@@ -19,6 +19,8 @@ technologies.
 == Interesting Data Applications
 
 - http://countries.petethompson.net/
+- https://mledoze.github.io/countries/
+- http://restcountries.eu/#api-endpoints
 - https://catalog.data.gov/
 
 == Tools
