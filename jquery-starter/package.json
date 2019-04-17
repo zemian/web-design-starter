@@ -1,0 +1,14 @@
+{
+  "name": "jquery-starter",
+  "version": "1.0.0",
+  "description": "jQuery is a JavaScript library that helps you manipulate DOM API, add animation to your HTML page, dynamically styling and many more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.4.0"
+  }
+}
