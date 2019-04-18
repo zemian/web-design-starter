@@ -93,3 +93,17 @@ function Person(first, last, age, eyecolor) {
 }
 var p = new Person("John", "Doe", 50, "blue");
 console.log(p.name());
+
+// == JS object creation with initializer
+let a1 = {};
+let a2 = {foo: "bar"};
+let a3 = {
+    name: "World",
+    hi: function() { return "Hello " + this.name; }
+};
+// ES5 shortcut for method
+let a4 = {
+    name: "World",
+    hi() { return "Hello " + this.name; }
+};
+console.log(a4.hi());
