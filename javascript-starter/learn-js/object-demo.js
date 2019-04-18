@@ -61,3 +61,35 @@ console.log(Object.silly)
 console.log(Foo.silly)
 console.log(f.silly)
 
+// Create single object with method
+var person = {
+    firstName: "John",
+    lastName : "Doe",
+    id       : 5566,
+    fullName : function() {
+        return this.firstName + " " + this.lastName;
+    }
+};
+console.log(person);
+console.log(person.fullName());
+
+// object constructor function.
+function Person(first, last, age, eye) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eye;
+}
+var myFather = new Person("John", "Doe", 50, "blue");
+var myMother = new Person("Sally", "Rally", 48, "green");
+
+// Adding method to constructor function
+function Person(first, last, age, eyecolor) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eyecolor;
+    this.name = function() {return this.firstName + " " + this.lastName;};
+}
+var p = new Person("John", "Doe", 50, "blue");
+console.log(p.name());
