@@ -3,12 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .button_round {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .button1 {border-radius: 2px;}
+        .button2 {border-radius: 4px;}
+        .button3 {border-radius: 8px;}
+        .button4 {border-radius: 12px;}
+        .button5 {border-radius: 50%;}
+    </style>
 </head>
 <body>
 
-<h1>Button vs Input Submit</h1>
-<p><button name="button1" value="tag-button" >Tag Button</button></p>
-<p><form><input type="button" value="Form Button"></form></p>
+<h2>CSS Buttons</h2>
+<button>Default Button</button>
+<a href="#" class="button">Link Button</a>
+<button class="button">Button</button>
+<input type="button" class="button" value="Input Button">
+
+
+<h2>Rounded Buttons</h2>
+<p>Add rounded corners to a button with the border-radius property:</p>
+<p>NOTE: The button highlight box is still a rectangle.</p>
+
+<button class="button_round button1">2px</button>
+<button class="button_round button2">4px</button>
+<button class="button_round button3">8px</button>
+<button class="button_round button4">12px</button>
+<button class="button_round button5">50%</button>
 
 </body>
 </html>
