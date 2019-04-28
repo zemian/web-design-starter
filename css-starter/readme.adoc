@@ -12,3 +12,8 @@ Web browsers apply CSS rules to a document to affect how they are displayed. A C
     - A selector, which selects the element(s) you want to apply the updated property values to. For example, I want to apply my CSS rule to all the paragraphs in my HTML document.
 
 A set of CSS rules contained within a stylesheet determines how a webpage should look.
+
+== Examples in this project
+
+Many examples in this projects are from online tutorials and reference site. I have simply collected them here
+for learning purpose. In many cases modified for learning purpose as well.
