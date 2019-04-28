@@ -4,7 +4,7 @@ describes how elements should be rendered on screen, on paper, in speech, or on 
 
 https://developer.mozilla.org/en-US/docs/Web/CSS
 
-== Hwo it Works
+== How it Works
 
 Web browsers apply CSS rules to a document to affect how they are displayed. A CSS rule is formed from:
 
