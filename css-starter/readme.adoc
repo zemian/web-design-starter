@@ -17,3 +17,9 @@ A set of CSS rules contained within a stylesheet determines how a webpage should
 
 Many examples in this projects are from online tutorials and reference site. I have simply collected them here
 for learning purpose. In many cases modified for learning purpose as well.
+
+Here are few good references to learn about HTML/CSS/JavaScript
+
+- https://www.w3schools.com/html/default.asp
+- https://developer.mozilla.org/en-US/docs/Web
+
