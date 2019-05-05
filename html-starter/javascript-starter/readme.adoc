@@ -38,3 +38,73 @@ https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduct
 == The DOM API Reference
 
 https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+
+== JS Notes
+
+=== What is "Objects' constructor function"?
+
+Object Types (Blueprints) (Classes)
+
+Sometimes we need a "blueprint" for creating many objects of the same "type".
+
+The way to create an "object type", is to use an object constructor function.
+
+In the example below, function Person() is an object constructor function.
+
+Objects of the same type are created by calling the constructor function with the new keyword:
+
+----
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+var myFather = new Person("John", "Doe", 50, "blue");
+var myMother = new Person("Sally", "Rally", 48, "green");
+----
+
+TIPS: It is considered good practice to name constructor functions with an upper-case first letter.
+
+NOTE: We also learned that you can not add a new property to an existing object constructor. To add a new property to a constructor, you must add it to the constructor function. If must, then you need to use "prototype".
+
+=== What is "this"?
+
+In a constructor function this does not have a value. It is a substitute for the new object. The value of this will become the new object when a new object is created.
+
+https://www.w3schools.com/js/js_object_constructors.asp
+
+NOTE: It's easy to make mistake to invoke constructor function without "new".
+In this case, the `this` will be the "global" object of the platform (eg:
+`window` in browser, or `global` in nodejs etc)
+
+
+=== Built-In Constructor Functions
+
+----
+var x1 = new Object();    // A new Object object
+var x2 = new String();    // A new String object
+var x3 = new Number();    // A new Number object
+var x4 = new Boolean();   // A new Boolean object
+var x5 = new Array();     // A new Array object
+var x6 = new RegExp();    // A new RegExp object
+var x7 = new Function();  // A new Function object
+var x8 = new Date();      // A new Date object
+
+
+ALSO:
+
+Use object literals {} instead of new Object().
+
+Use string literals "" instead of new String().
+
+Use number literals 12345 instead of new Number().
+
+Use boolean literals true / false instead of new Boolean().
+
+Use array literals [] instead of new Array().
+
+Use pattern literals /()/ instead of new RegExp().
+
+Use function expressions () {} instead of new Function().
+----
